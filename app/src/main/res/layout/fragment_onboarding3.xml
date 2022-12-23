@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Onboarding3Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
@@ -53,6 +53,7 @@
         android:layout_marginBottom="130dp">
 
         <TextView
+            android:id="@+id/masuk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masuk"

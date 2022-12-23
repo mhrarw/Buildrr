@@ -6,11 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewpager2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
+
 
     <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
         android:id="@+id/spring_dots_indicator"

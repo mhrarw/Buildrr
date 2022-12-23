@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         supportActionBar?.hide()
 
         val viewPager : ViewPager2 = findViewById(R.id.viewpager2)
@@ -27,6 +28,8 @@ class MainActivity : AppCompatActivity() {
         val springDotsIndicator = findViewById<SpringDotsIndicator>(R.id.spring_dots_indicator)
         viewPager.adapter = adapter
         springDotsIndicator.attachTo(viewPager)
+
+
 
     }
 }
